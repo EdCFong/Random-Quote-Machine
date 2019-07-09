@@ -1,0 +1,54 @@
+#quote-box
+{
+  background:rgb(133, 193, 233);
+  width: 60%;
+  height: 60%;
+  margin-top: 20%;
+  margin-right: auto;
+  margin-left:  auto;
+  border-radius: 8px;
+  border: 3px solid rgb(37, 37, 219);
+  padding: 1%;
+  font-family: 'Barriecito', cursive;
+  color: rgb(37, 37, 219);
+}
+#imagen-friends
+{
+  background-image: url("friends-tv-show.jpg");
+  background-size: cover; 
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -2; 
+}
+#div-buttons
+{
+  padding: 1%;
+  overflow: auto;
+}
+#new-quote
+{
+  float: right;
+}
+#tweet-quote
+{
+  float: left;
+}
+#text
+{
+  padding: 1%;
+}
+#author
+{
+  padding: 1%;
+  overflow: auto;
+  width: 80%;
+  margin-left: 10%;
+}
+#i_author
+{
+  float: right;
+}
